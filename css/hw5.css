@@ -1,0 +1,112 @@
+/************************************************
+ homework 5 styles
+************************************************/
+
+
+* {
+	font-family: "Times New Roman", Times, serif;;
+	font-size: 18px;}
+
+body {background-color: rgba(247,225,205,0.75);}
+
+.header {
+	background-color: #E8B548;
+	height: 130px;
+	position: relative;
+	border: 2px solid #E8B548;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.main-heading {
+	font-size: 40px;
+}
+
+h1, h3 {font-weight: bold;}
+
+h1, h2 {margin-left: 40px;}
+
+.menu {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	display: inline-block;
+}
+
+
+.link {
+	margin-right: 40px;
+}
+	
+nav ul li {
+	font-size: 125%;
+	list-style: none;
+	display: inline-block;
+}
+	
+.taz {
+	position: absolute;
+	left: 350px;
+	top: 30px;
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+}
+	
+em {color: red;}
+
+ul li {list-style: circle;}
+
+.outerwrapper {
+	margin: auto auto;
+	width: 80%;
+}
+
+.col-left {
+	width: 49%;
+	margin-top: 2px;
+	float: left;
+	background-color: rgba(255,231,180,0.3);
+	border: 2px solid #E8B548;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.col-right {
+	width: 49%;
+	margin-top: 2px;
+	float: right;
+	background-color: rgba(255,231,180,0.3);
+	border: 2px solid #E8B548;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.title {color: #41424A;}
+
+.title.background {color: #AD422D;}
+		
+form {color: #A9AF90;}
+
+.contact-form {
+	width: 80%;
+	margin: auto auto;
+}
+
+.contact-content {
+	margin-top: 45px;
+}
+
+.training {
+	width: 80%;
+	margin: auto auto;
+}
+
+.training-content {
+	margin-top: 45px;
+}
+
+
