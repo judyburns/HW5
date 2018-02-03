@@ -4,7 +4,7 @@
 
 
 * {
-	font-family: "Times New Roman", Times, serif;;
+	font-family: "Times New Roman", Times, serif;
 	font-size: 18px;}
 
 body {background-color: rgba(247,225,205,0.75);}
@@ -60,24 +60,14 @@ ul li {list-style: circle;}
 
 .outerwrapper {
 	margin: auto auto;
-	width: 80%;
 }
 
-.col-left {
-	width: 49%;
+.col-left,
+.col-middle,
+.col-right {
+	width: 33%;
 	margin-top: 2px;
 	float: left;
-	background-color: rgba(255,231,180,0.3);
-	border: 2px solid #E8B548;
-	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-}
-
-.col-right {
-	width: 49%;
-	margin-top: 2px;
-	float: right;
 	background-color: rgba(255,231,180,0.3);
 	border: 2px solid #E8B548;
 	border-radius: 10px;
